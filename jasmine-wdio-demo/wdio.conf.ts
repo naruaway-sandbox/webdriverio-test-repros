@@ -142,7 +142,7 @@ export const config: Options.Testrunner = {
         // The Jasmine framework allows interception of each assertion in order to log the state of the application
         // or website depending on the result. For example, it is pretty handy to take a screenshot every time
         // an assertion fails.
-        expectationResultHandler: function(passed, assertion) {
+        expectationResultHandler: function(_passed, _assertion) {
             // do something
         }
     },
